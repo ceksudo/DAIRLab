@@ -2,7 +2,7 @@
 
 IEEE style is used mainly in Electronic and Electrical Engineering and Computer Science. This style sheet gives general guidelines based on the IEEE’s citation and referencing guide: [IEEE Citation Reference](https://www.ieee.org/documents/ieeecitationref.pdf)  
 
-**EndNote and EndNote Online** currently include several variants of IEEE style such as IEEE-Pervasive Comp, IEEE Micro and IEEE ACM Trans Network. Check with your department to establish their preferred style. Remember to check records imported using EndNote for errors or omissions, and that each reference is correctly formatted.
+
 
 ## Citations
 

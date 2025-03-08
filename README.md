@@ -1,9 +1,9 @@
-# resolution
-Resolution AI Prototype Web Page and other Coding Resources 
+# DAIRLab
+Empowering the Youth to Solve Africa's most Pressing Challenges
 
 # How to Contribute
 
-We'd love to accept your contributions from the weekend paper reading under AI-Resaerch and general blog post under All-Resolution on the web page.
+We would love to accept contribution from your weekly research paper reading in the form of blog post. The following guid will help you to know how to contribute under the blog page session of the our website.
 
 
 
@@ -16,7 +16,7 @@ There will be three Git repositories involved:
 
 1.  *upstream* - the resolution repository on GitHub.
 2.  *origin* - your GitHub fork of `upstream`. This repository
-    will typically be at a URL that looks like `github.com/_your_user_name_/resolution`
+    will typically be at a URL that looks like `github.com/_your_user_name_/DAIRLab`
 3.  *local* - your local clone of `origin`
 
 ### First time setup
@@ -25,24 +25,24 @@ Follow these steps to get ready for making changes to ServiceWeaver.  These
 steps are only needed once and not for subsequent changes you might want to
 make:
 
-1.  Fork the `resolution` repository on GitHub to create `origin`.
-    Visit [resolution](https://github.com/ceksudo/resolution) GitHub repository and click the `Fork` button.
+1.  Fork the `DAIRLab` repository on GitHub to create `origin`.
+    Visit [resolution](https://github.com/ceksudo/DAIRLab) GitHub repository and click the `Fork` button.
 
 2.  Make a `local` clone of your fork.
 
     ```shell
-    git clone git@github.com:_your_user_name_/resolution.git
+    git clone git@github.com:_your_user_name_/DAIRLab.git
     ```
 
 3.  Add a remote pointing from `local` to `upstream`.
 
     ```shell
     cd weaver
-    git remote add upstream git@github.com:ceksudo/resolution.git
+    git remote add upstream git@github.com:ceksudo/DAIRLab.git
     ```
 ### Making changes
 
-Here is a detailed outline of the steps needed to make changes to resolution.
+Here is a detailed outline of the steps needed to make changes to DAIRLab.
 
 
 1. Make a local branch in your clone and pull any recent changes into it.
@@ -78,7 +78,7 @@ Here is a detailed outline of the steps needed to make changes to resolution.
    ```
 
 5. Select the branch you are working on in the drop-down menu of branches on
-   https://github.com/_your_user_name_/resolution . Then hit the `Compare and pull
+   https://github.com/_your_user_name_/DAIRLab . Then hit the `Compare and pull
    request` button.
 
 6. Respond to feedback, which may involve making new commits.
@@ -117,7 +117,7 @@ Here is a detailed outline of the steps needed to make changes to resolution.
     of the `upstream` repository. The reviewer may do this without
     being asked.
 
-    Select the `Squash and merge` option on https://github.com/ceksudo/resolution
+    Select the `Squash and merge` option on https://github.com/ceksudo/DAIRLab
     or use the command line instructions found on that page. Edit the commit message
     as appropriate for the squashed commit.
 
@@ -141,20 +141,21 @@ use GitHub pull requests for this purpose.
 
 
 ## What to contribute to?
-1. Weekend Paper Reading Contribution
+Weekend Paper Reading Contribution
    - change into `web-page` directory
-   - change into `docs`
-   - change into `weekend-paper-reading-number` directory
-   - create a markdown file using this naming converstion `[first name]-[surname]-[paper-number].md` eg `paul-offei-paper-1.md`
-   - Inside file: use the fine name as title eg: `# paul-offei-paper-1` follow by Topic and link to the paper eg: `## Topic: Hello` and `- [Hello](Link)`
-   - Then you go on to write your contribution and understanting after reading the research paper in a form that you write, revise, and restructure 
- to showcase your thinking and understanding.
+   - change into `blog`
+   - change into the current week `[date-week-number]` directory, eg: `2025-03-08` folder
+   - create a markdown file using this naming converstion `[paper-number].md` which will be given eg `paper-1.md`
+   - Inside file you state your the paper title and your name using markdown styling and Then you go on to write your contribution and understanting after reading the research paper in a form that you write, revise, and restructure to showcase your thinking and understanding. eg:
+   ```sh
+    ---
+      title: Hello Research
+      authors: [ceksudo]
+   ---
 
-2. General All-Resolution Blog Post
-   - same as 1 but the naming conversiotion follows `[year]-[month]-[date]-[title].md` eg; `2024-12-30-Attention.md` and could be file or folder
-
-3. Adding anything useful that doesn't form apart of the web page
-
+   Hello World
+   ```
+   
 
 
 

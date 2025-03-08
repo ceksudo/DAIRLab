@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Interview preparation',
+    title: 'Scientific Writing',
     Svg: require('@site/static/img/event-3.svg').default,
     description: (
       <>
@@ -49,7 +49,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Social Recreation Activities',
+    title: 'Technical Writing',
     Svg: require('@site/static/img/event-6.svg').default,
     description: (
       <>

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to ResolutionAI',
-  tagline: 'Resolution is a Responsible Open Lab Uniting Talented Individuals Online',
+  title: 'Welcome to DAIRLab',
+  tagline: 'DAIRLab stands for Data and AI Research Lab under YouthInAI with the mission of driving general innovative research for social good and empowering youth to solve challenges in Africa',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -73,11 +73,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/resolution-social-card.png',
+      image: 'img/dairlab-social-card.png',
       navbar: {
-        title: 'ResolutionAI',
+        title: 'DAIRLab',
         logo: {
-          alt: 'ResolutionAI Logo',
+          alt: 'DAIRLab Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -85,12 +85,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'AI-Research',
+            label: 'Workshop',
           },
-          {to: '/blog', label: 'All-Resolution Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://ninarehm.github.io',
-            label: 'Adviser',
+            href: 'https://youthinai.org',
+            label: 'YouthInAI',
             position: 'right',
           },
         ],
@@ -113,7 +113,22 @@ const config = {
               
               {
                 label: 'X',
-                href: 'https://x.com/Resolution_ai',
+                href: 'https://x.com/youthin_ai',
+              },
+
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/company/youth-in-ai/',
+              },
+
+              {
+                label: 'Facebook',
+                href: 'https://facebook.com/youthinai',
+              },
+
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/youthin.ai/',
               },
             ],
           },
@@ -121,17 +136,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'All-Resolution Blog',
+                label: 'Blog',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/ceksudo/resolution',
+                href: 'https://github.com/ceksudo/DAIRLab',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}  @ ResolutionAI`,
+        copyright: `Copyright © ${new Date().getFullYear()}  @ DAIRLab`,
       },
       prism: {
         theme: prismThemes.github,

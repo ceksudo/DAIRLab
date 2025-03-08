@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`ResolutionAI | ${siteConfig.title}`}
-      description="ResolutionAI<head />">
+      title={`DAIRLab | ${siteConfig.title}`}
+      description="Data and AI Research Lab for advancing AI Education and Research<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

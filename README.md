@@ -144,7 +144,7 @@ use GitHub pull requests for this purpose.
 Weekend Paper Reading Contribution
    - change into `web-page` directory
    - change into `blog`
-   - change into the current week `[date-week-number]` directory, eg: `2025-03-08` folder
+   - change into the current week `[date-week-number]` directory, eg: `2025-03-08-week-1` folder
    - create a markdown file using this naming converstion `[paper-number].md` which will be given eg `paper-1.md`
    - Inside file you state your the paper title and your name using markdown styling and Then you go on to write your contribution and understanting after reading the research paper in a form that you write, revise, and restructure to showcase your thinking and understanding. eg:
    ```sh

@@ -1,6 +1,4 @@
-# Welcome to YouthInAI Data and AI Research Lab Workshop
-
-## Training Process of Deep Neural Network(DNN) - TPDNN
+# Training Deep Neural Network(DNN) from Scratch
 
 ### 1. Google Colab
 Deep learning is an expensive practice. It only burst about 10 years ago into our lives because GPUs became strong enough to allow the magic it is.

@@ -4,43 +4,43 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Team Work',
+    title: 'Paper Publication 1',
     Svg: require('@site/static/img/event-1.svg').default,
     description: (
       <>
-        
+        Coming soon
       </>
     ),
   },
   {
-    title: 'Research Collabration',
+    title: 'Paper Publication 2',
     Svg: require('@site/static/img/event-2.svg').default,
     description: (
       <>
-        
+        Coming soon
       </>
     ),
   },
   {
-    title: 'Scientific Writing',
+    title: 'Paper Publication 3',
     Svg: require('@site/static/img/event-3.svg').default,
     description: (
       <>
-        
+        Coming soon
       </>
     ),
   },
   {
-    title: 'Mentorship Training',
+    title: 'Paper Publication 4',
     Svg: require('@site/static/img/event-4.svg').default,
     description: (
       <>
-        
+        Coming soon
       </>
     ),
   },
   {
-    title: 'Research Software Engineering',
+    title: 'Paper Publication 5',
     Svg: require('@site/static/img/event-5.svg').default,
     description: (
       <>
@@ -49,11 +49,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Technical Writing',
+    title: 'Paper Publication 6',
     Svg: require('@site/static/img/event-6.svg').default,
     description: (
       <>
-        
+        Coming soon
       </>
     ),
   },
